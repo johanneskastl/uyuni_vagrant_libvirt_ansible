@@ -1,0 +1,31 @@
+---
+
+- name: 'Run 10_SLES_register.yml'
+  import_playbook: 10_SLES_register.yml
+
+- name: 'Run playbook-all_nodes-zypper_ref_accept_keys.yml'
+  import_playbook: playbook-all_nodes-zypper_ref_accept_keys.yml
+
+- name: 'Run playbook-all_nodes-add_all_nodes_to_etc_hosts.yml'
+  import_playbook: playbook-all_nodes-add_all_nodes_to_etc_hosts.yml
+
+- name: 'Run playbook-all_nodes-add_screenrc.yml'
+  import_playbook: playbook-all_nodes-add_screenrc.yml
+
+- name: 'Run playbook-all_nodes-create_a_vimrc.yml'
+  import_playbook: playbook-all_nodes-create_a_vimrc.yml
+
+- name: 'Run playbook-all_nodes-install_one_or_more_packages.yml'
+  import_playbook: playbook-all_nodes-install_one_or_more_packages.yml
+
+- name: 'Run playbook-all_nodes-install_useful_tools.yml'
+  import_playbook: playbook-all_nodes-install_useful_tools.yml
+
+- name: 'Run playbook-all_nodes-install_chrony.yml'
+  import_playbook: playbook-all_nodes-install_chrony.yml
+
+- name: 'Run playbook-all_nodes-minimal_bashrc.yml'
+  import_playbook: playbook-all_nodes-minimal_bashrc.yml
+
+- name: 'Run playbook-all_nodes-set_fau_ntp_servers.yml'
+  import_playbook: playbook-all_nodes-set_fau_ntp_servers.yml
