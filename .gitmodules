@@ -31,3 +31,6 @@
 [submodule "ansible/roles/install_useful_tools"]
 	path = ansible/roles/install_useful_tools
 	url = https://github.com/johanneskastl/ansible-role-install_useful_tools.git
+[submodule "ansible/roles/reboot"]
+	path = ansible/roles/reboot
+	url = https://github.com/johanneskastl/ansible-role-reboot.git
