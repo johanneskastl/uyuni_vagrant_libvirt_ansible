@@ -19,3 +19,6 @@
 [submodule "ansible/roles/add_screenrc"]
 	path = ansible/roles/add_screenrc
 	url = https://github.com/johanneskastl/ansible-role-add_screenrc.git
+[submodule "ansible/roles/install_chrony"]
+	path = ansible/roles/install_chrony
+	url = https://github.com/johanneskastl/ansible-role-install_chrony.git
