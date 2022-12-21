@@ -46,3 +46,6 @@
 [submodule "ansible/roles/RockyLinux_install_epel-release"]
 	path = ansible/roles/RockyLinux_install_epel-release
 	url = https://github.com/johanneskastl/ansible-role-RockyLinux_install_epel-release.git
+[submodule "ansible/roles/update_debian_ubuntu_sources"]
+	path = ansible/roles/update_debian_ubuntu_sources
+	url = https://github.com/johanneskastl/ansible-role-update_debian_ubuntu_sources.git
