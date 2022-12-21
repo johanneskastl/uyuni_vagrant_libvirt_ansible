@@ -28,3 +28,6 @@
 [submodule "ansible/roles/set_fau_ntp_servers"]
 	path = ansible/roles/set_fau_ntp_servers
 	url = https://github.com/johanneskastl/ansible-role-set_fau_ntp_servers.git
+[submodule "ansible/roles/install_useful_tools"]
+	path = ansible/roles/install_useful_tools
+	url = https://github.com/johanneskastl/ansible-role-install_useful_tools.git
