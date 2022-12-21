@@ -16,3 +16,6 @@
 [submodule "ansible/roles/create_a_vimrc"]
 	path = ansible/roles/create_a_vimrc
 	url = https://github.com/johanneskastl/ansible-role-create_a_vimrc.git
+[submodule "ansible/roles/add_screenrc"]
+	path = ansible/roles/add_screenrc
+	url = https://github.com/johanneskastl/ansible-role-add_screenrc.git
