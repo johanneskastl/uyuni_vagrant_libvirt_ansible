@@ -61,3 +61,6 @@
 [submodule "ansible/roles/set_root_password"]
 	path = ansible/roles/set_root_password
 	url = https://github.com/johanneskastl/ansible-role-set_root_password.git
+[submodule "ansible/roles/transactional_update"]
+	path = ansible/roles/transactional_update
+	url = https://github.com/johanneskastl/ansible-role-transactional_update.git
