@@ -1,0 +1,8 @@
+---
+- name: 'Install chrony'
+  hosts: 'all'
+  gather_facts: 'yes'
+  become: 'true'
+
+  roles:
+    - role: 'install_chrony'
