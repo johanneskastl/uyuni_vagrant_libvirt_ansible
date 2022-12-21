@@ -1,0 +1,8 @@
+---
+- name: 'Refresh all zypper repositories'
+  hosts: 'all'
+  gather_facts: 'yes'
+  become: 'true'
+
+  roles:
+    - role: 'zypper_ref_accept_keys'
