@@ -4,3 +4,6 @@
 [submodule "ansible/roles/b1-systems-ansible-role-suseconnect"]
 	path = ansible/roles/b1-systems-ansible-role-suseconnect
 	url = https://github.com/b1-systems/ansible-role-suseconnect.git
+[submodule "ansible/roles/add_all_nodes_to_etc_hosts"]
+	path = ansible/roles/add_all_nodes_to_etc_hosts
+	url = https://github.com/johanneskastl/ansible-role-add_all_nodes_to_etc_hosts.git
