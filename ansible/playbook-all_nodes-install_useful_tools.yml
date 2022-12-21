@@ -1,0 +1,8 @@
+---
+- name: 'Install useful tools'
+  hosts: 'all'
+  gather_facts: 'yes'
+  become: 'true'
+
+  roles:
+    - role: 'install_useful_tools'
