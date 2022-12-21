@@ -49,3 +49,6 @@
 [submodule "ansible/roles/update_debian_ubuntu_sources"]
 	path = ansible/roles/update_debian_ubuntu_sources
 	url = https://github.com/johanneskastl/ansible-role-update_debian_ubuntu_sources.git
+[submodule "ansible/roles/zypper_ref_accept_keys"]
+	path = ansible/roles/zypper_ref_accept_keys
+	url = https://github.com/johanneskastl/ansible-role-zypper_ref_accept_keys.git
