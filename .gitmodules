@@ -7,3 +7,6 @@
 [submodule "ansible/roles/add_all_nodes_to_etc_hosts"]
 	path = ansible/roles/add_all_nodes_to_etc_hosts
 	url = https://github.com/johanneskastl/ansible-role-add_all_nodes_to_etc_hosts.git
+[submodule "ansible/roles/install_one_or_more_packages"]
+	path = ansible/roles/install_one_or_more_packages
+	url = https://github.com/johanneskastl/ansible-role-install_one_or_more_packages.git
