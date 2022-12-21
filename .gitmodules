@@ -55,3 +55,6 @@
 [submodule "ansible/roles/add_zypper_repository"]
 	path = ansible/roles/add_zypper_repository
 	url = https://github.com/johanneskastl/ansible-role-add_zypper_repository.git
+[submodule "ansible/roles/set_hostname"]
+	path = ansible/roles/set_hostname
+	url = https://github.com/johanneskastl/ansible-role-set_hostname.git
