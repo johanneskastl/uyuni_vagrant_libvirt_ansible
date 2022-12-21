@@ -67,3 +67,6 @@
 [submodule "ansible/roles/update_all_packages"]
 	path = ansible/roles/update_all_packages
 	url = https://github.com/johanneskastl/ansible-role-update_all_packages.git
+[submodule "ansible/roles/uyuni_server_installation"]
+	path = ansible/roles/uyuni_server_installation
+	url = https://github.com/johanneskastl/ansible-role-uyuni_server_installation
