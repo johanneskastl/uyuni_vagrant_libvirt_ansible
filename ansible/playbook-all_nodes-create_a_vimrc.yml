@@ -1,0 +1,9 @@
+---
+- name: 'Create a vimrc'
+  hosts: 'all'
+  gather_facts: 'yes'
+  become: 'true'
+
+  roles:
+    - role: 'create_a_vimrc'
+      additional_users: "{{ ansible_user }}"
