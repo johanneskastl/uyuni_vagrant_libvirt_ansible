@@ -29,3 +29,6 @@
 
 - name: 'Run playbook-all_nodes-set_fau_ntp_servers.yml'
   import_playbook: playbook-all_nodes-set_fau_ntp_servers.yml
+
+- name: 'Run playbook-uyuniserver01-uyuni_server_installation.yml'
+  import_playbook: playbook-uyuniserver01-uyuni_server_installation.yml
