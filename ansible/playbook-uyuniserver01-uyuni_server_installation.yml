@@ -1,0 +1,8 @@
+---
+- name: 'Install the Uyuni server'
+  hosts: 'uyuniserver01'
+  gather_facts: 'yes'
+  become: 'true'
+
+  roles:
+    - role: 'uyuni_server_installation'
