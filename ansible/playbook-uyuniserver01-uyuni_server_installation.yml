@@ -5,7 +5,7 @@
   become: 'true'
 
   roles:
-    - role: 'stdevel.uyuni'
+    - role: 'stdevel.uyuni.server'
       uyuni_pv: '/dev/vdb'
       uyuni_cert_city: 'Rockolding'
       uyuni_cert_country: 'DE'
