@@ -52,6 +52,10 @@ Vagrant.configure("2") do |config|
         lv.random_hostname = true
         lv.memory = 4096
         lv.cpus = 2
+
+        lv.storage :file,
+          :type => 'qcow2',
+          :size => '40G'
       end
 
       # set the hostname
