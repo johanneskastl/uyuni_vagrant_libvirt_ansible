@@ -5,4 +5,5 @@
   become: 'true'
 
   roles:
-    - role: 'uyuni_server_installation'
+    - role: 'stdevel.uyuni'
+      uyuni_pv: '/dev/vdb'
