@@ -5,8 +5,9 @@
   become: 'true'
 
   roles:
-    - role: 'stdevel.uyuni.server'
+    - role: 'stdevel.uyuni.storage'
       uyuni_pv: '/dev/vdb'
+    - role: 'stdevel.uyuni.server'
       uyuni_cert_city: 'Rockolding'
       uyuni_cert_country: 'DE'
       uyuni_cert_mail: 'root@localhost'
