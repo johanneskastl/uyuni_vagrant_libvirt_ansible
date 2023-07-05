@@ -2,7 +2,7 @@
 - name: 'Add all hosts to all /etc/hosts files'
   hosts: 'all'
   gather_facts: 'yes'
-  become: 'true'
+  become: true
 
   roles:
     - role: 'add_all_nodes_to_etc_hosts'
