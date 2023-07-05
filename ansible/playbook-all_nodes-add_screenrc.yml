@@ -2,7 +2,7 @@
 - name: 'Add a screenrc'
   hosts: 'all'
   gather_facts: 'yes'
-  become: 'true'
+  become: true
 
   roles:
     - role: 'add_screenrc'
