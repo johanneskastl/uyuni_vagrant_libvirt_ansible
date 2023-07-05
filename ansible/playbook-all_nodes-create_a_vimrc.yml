@@ -2,7 +2,7 @@
 - name: 'Create a vimrc'
   hosts: 'all'
   gather_facts: 'yes'
-  become: 'true'
+  become: true
 
   roles:
     - role: 'create_a_vimrc'
