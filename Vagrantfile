@@ -70,6 +70,10 @@ Vagrant.configure("2") do |config|
         node.vm.provision "ansible" do |ansible|
           ansible.compatibility_mode = "2.0"
           ansible.limit = "all"
+          ansible.groups = {
+            "uyuni_clients"  => [ "uyuni-client01" ],
+            "uyuni_servers"  => [ "uyuniserver01" ],
+          }
           ansible.playbook = "ansible/playbook-all_nodes.yml"
 
         end # node.vm.provision
