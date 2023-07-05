@@ -2,7 +2,7 @@
 - name: 'Set FAU NTP servers'
   hosts: 'all'
   gather_facts: 'yes'
-  become: 'true'
+  become: true
 
   roles:
     - role: 'set_fau_ntp_servers'
